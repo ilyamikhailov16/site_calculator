@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="resources/styles/main.css" />
+    <link rel="stylesheet" href="resources/styles/calc.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <section>
+      <div></div>
+      <div id="calc">
+        <div id="screen">
+          <div></div>
+          <div id="screen_nums">0</div>
+        </div>
+        <div id="buttons">
+          <div id="row">
+            <button onclick="conclusion(this)">7</button>
+            <button onclick="conclusion(this)">8</button>
+            <button onclick="conclusion(this)">9</button>
+            <button onclick="conclusion(this)">/</button>
+          </div>
+          <div id="row">
+            <button onclick="conclusion(this)">4</button>
+            <button onclick="conclusion(this)">5</button>
+            <button onclick="conclusion(this)">6</button>
+            <button onclick="conclusion(this)">*</button>
+          </div>
+          <div id="row">
+            <button onclick="conclusion(this)">1</button>
+            <button onclick="conclusion(this)">2</button>
+            <button onclick="conclusion(this)">3</button>
+            <button onclick="conclusion(this)">-</button>
+          </div>
+          <div id="row">
+            <button onclick="conclusion(this)">0</button>
+            <button onclick="conclusion(this)">.</button>
+            <button onclick="conclusion(this)">=</button>
+            <button onclick="conclusion(this)">+</button>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <div id="footer_div"><button id="clear_button" onclick="clean()">Clear</button></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>

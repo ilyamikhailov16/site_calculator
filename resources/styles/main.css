@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Manrope, serif;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+    background-image: url("../images/fon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 0.8fr 1.4fr 0.8fr;
+
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr 0.9fr;
+
+}
+
+@media (max-width: 992px) {
+    section{
+        display: grid;
+        grid-template-columns: 0.6fr 1.8fr 0.6fr;
+    
+    }
+
+    
+ }
+
+ @media (max-width: 320px) {
+    section{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 0.5fr;
+    
+    }
+
+    
+ }
