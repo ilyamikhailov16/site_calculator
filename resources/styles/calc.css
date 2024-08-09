@@ -4,14 +4,14 @@
     justify-content: center;
     background: rgba(255, 255, 255, 0.192);
     backdrop-filter: blur(10px);
-    border-radius: 10%;
+    border-radius: 50px;
     text-align: center;
 
 }
 
 #screen {
     color: black;
-    border-radius: 10%;
+    border-radius: 15px;
     margin-inline: 5%;
     background-color: white;
     display: flex;
@@ -36,7 +36,7 @@ button {
     font-size: 2rem;
     color: white;
     padding: 0.5rem;
-    border-radius: 10%;
+    border-radius: 15px;
     background-color: #004dbf;
 }
 
